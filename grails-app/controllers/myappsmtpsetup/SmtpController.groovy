@@ -13,7 +13,7 @@ class SmtpController {
     def sendEmail() {
 
         Map emailIds = [
-                toMailIds : "Kundan.Kumar@iinterchange.com",
+                toMailIds : "Kundan.Kumar@gmail.com",
                 ccMailIds : "",
                 bccMailIds: ""
         ]
@@ -31,7 +31,7 @@ class SmtpController {
                 "<h3>Hello from SMTP Temp App</h3>",
                 "SMTP Dummy Test",
                 mailAttachments,
-                "icoralv2@gmail.com"
+                "kundan@gmail.com"
         )
 
         if (status) {
